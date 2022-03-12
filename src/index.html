@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>User Story</title>
+</head>
+<body>
+  <main class="flex">
+    <h1>User Stories Form</h1>
+    <section class="modal-dialog">
+      <form class="flex" method="POST" onsubmit="handleSubmit(); return false" class="flow" action="">
+        <div class="grid input-grid">
+          <label class="label special-font" for="name">Name:</label>
+          <!-- First and Surname (should have been specified on the user stories) -->
+          <input class="text-input special-font" type="text" name="name" id="name" placeholder="Enter Your Name"/>
+          <!-- <p>Enter a correct name</p> -->
+        </div>
+        <div class="grid input-grid">
+          <label class="label special-font" for="email">Email:</label>
+          <input class="text-input special-font" type="email" name="email" id="email" placeholder="Enter Your Email"/>
+          
+        </div>
+        <div class="grid input-grid">
+          <label class="label special-font" for="card">Card:</label>
+          <input class="text-input special-font" type="text" name="card" onkeyup="luhnAlgorithm(this)" id="card" placeholder="Enter a Proxy Credit Card Number"/>
+          <img hidden src="./assets/other.png" id="imgCard" style="padding:5px;" />
+        </div>
+        <div>
+          <input id="submit" type="submit" value="Submit" />
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

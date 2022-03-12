@@ -1,0 +1,95 @@
+{
+    "appendix_a": [
+        {
+            "id": 1,
+            "stakeholder": "Commercial Director",
+            "user_story": "As a user I need to be able to insert my name into the form",
+            "steps": "<p>Make Form</p><p>Make Label with Name</p><p>Make input field</p>"
+        },
+        {
+            "id": 2,
+            "stakeholder": "Commercial Director",
+            "user_story": "As a user I need to be able to insert my email into the form",
+            "steps": "<p>Make Form</p><p>Make Label with Email</p><p>Make input field</p>"
+
+        },
+        {
+            "id": 3,
+            "stakeholder": "Commercial Director",
+            "user_story": "As a user I need to be able to insert my Credit/Debit Card into the form",
+            "steps": "<p>Make Form</p><p>Make Label with Credit/Debit Card</p><p>Make input field</p>"
+        },
+        {
+            "id": 4,
+            "stakeholder": "Commercial Director",
+            "user_story": "As the Commercial Director I need users to only be able to enter valid names",
+            "steps": "<p>Make Form</p><p>Make Label with Name</p><p>Make input field</p><p>Validate Name</p>"
+        },
+        {
+            "id": 5,
+            "stakeholder": "Commercial Director",
+            "user_story": "As the Commercial Director I need users to only be able to enter valid email address",
+            "steps": "<p>Make Form</p><p>Make Label with Email</p><p>Make input field</p><p>Validate email address</p>"
+        },
+        {
+            "id": 6,
+            "stakeholder": "Commercial Director",
+            "user_story": "As the Commercial Director I need users to only be able to enter valid credit card",
+            "steps": "<p>Make Form</p><p>Make Label with Credit/Debit Card</p><p>Make input field</p><p>Validate Credit Card details</p>"
+        },
+        {
+            "id": 7,
+            "stakeholder": "Marketing Director",
+            "user_story": "As the marketing director I need the page to conform to our branding guidelines and use our brand colours: Green RGB 137,200,46 Hex 89c82e Grey RGB 60,60,59 Hex 3c3c3b Pink RGB 231,0,100 Hex 700064",
+            "steps": "<p>The form needs to branding colours</p><p>Use Green, Gray and Pink</p>"
+        },
+        {
+            "id": 8,
+            "stakeholder": "Marketing Director",
+            "user_story": "As the marketing director I need the page to be consistent with our other pages i.e., using the same Calibri font and text size, centred horizontally and vertically and to match the wireframe below:",
+            "steps": "<p>Make form</p><p>Use same font</p><p>Same text size</p><p>Center Horizontal</p><p>Match the wireframe</p>"
+        },
+        {
+            "id": 9,
+            "stakeholder": "CTO",
+            "user_story": "As CTO I need the application to reduce the load on the back-end server, validation should be done on page",
+            "steps": "<p>Complete Validation on the page</p><p>If fail make them insert their details again and send warning</p>"
+        },
+        {
+            "id": 10,
+            "stakeholder": "CTO",
+            "user_story": "As CTO I need to ensure all applications can be accessed by all users, the application needs to conform to w3c accessibility initiative. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.w3.org/WAI/fundamentals/accessibility-intro\">Introduction to Web Accessibility | Web Accessibility Initiative (WAI) | W3C</a> \n\n<a target=\"_blank\" rel=\"noreferrer noopener\" href=\"https://www.w3.org/TR/WCAG10/full-checklist.html\">Checklist of Checkpoints for Web Content Accessibility Guidelines 1.0 (w3.org)</a>",
+            "steps": "<p>Accessibility must be for all users</p>"
+        },
+        {
+            "id": 11,
+            "stakeholder": "CTO",
+            "user_story": "As CTO I need the application for follow our UX (User Experience) guide so that each user has the best possible experience. This should include any issues being highlighted to the user when they are still entering a field of as soon as possible after.\nCorrect fields should be shown as DN green, errors shown in DN Pink. ",
+            "steps": "<p>Prompt the user if they put the wrong information</p><p>Guide the user on how to complete the form</p><p>Correct input show green colour</p><p>Incorrect input show pink colour</p>"
+        },
+        {
+            "id": 12,
+            "stakeholder": "CTO",
+            "user_story": "As CTO I need to ensure that any data capture is secure and there is no risk of database corruption through SQL injection. Only standard upper / lower case. letters and printable characters: !#$%&'*+-/=?^_`{|}~ should be allowed in all fields.",
+            "steps": "<p>Make the form input secure</p><p>Sanitize form to protect against SQL injection</p>"
+        },
+        {
+            "id": 13,
+            "stakeholder": "CTO",
+            "user_story": "As CTO I need to ensure that all accepted credit cards conform to the LUHN algorithm. ",
+            "steps": "<p>All accepted CC must comply to LUHN algorithm</p>"
+        },
+        {
+            "id": 14,
+            "stakeholder": "CTO",
+            "user_story": "As CTO I need to ensure that all applications can run on all common browsers, devices and screen sizes",
+            "steps": "<p>Make Form run for all major browsers</p><p>Responsive Screen size</p>"
+        },
+        {
+            "id": 15,
+            "stakeholder": "CTO",
+            "user_story": "As CTO for this exercise, I need an Email to <a href=\"mailto:test@dn-uk.com\">test@dn-uk.com</a> be sent containing the validated information when a user presses a ‘Submit’ button. ",
+            "steps": "<p>On Submit send the form to test@dn-uk.com</p>"
+        }        
+    ]
+}

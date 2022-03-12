@@ -1,0 +1,2 @@
+aback-ship.surge.sh
+surge --domain aback-ship.surge.sh dist
