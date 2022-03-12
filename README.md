@@ -5,10 +5,10 @@
 - [General Information](https://github.com/CustomHaven/user-story#general-information)
 - [Technologies](https://github.com/CustomHaven/user-story#technologies)
 - [Mission](https://github.com/CustomHaven/user-story#mission)
-- [HTML5 & CSS3](https://github.com/CustomHaven/user-story#HTML5-&-CSS3)
+- [HTML5 & CSS3](https://github.com/CustomHaven/user-story#HTML5--CSS3)
 - [JavaScript](https://github.com/CustomHaven/user-story#JavaScript)
 - [Jest](https://github.com/CustomHaven/user-story#Jest)
-- [Webpack & Babel](https://github.com/CustomHaven/user-story#webpack-&-Babel)
+- [Webpack & Babel](https://github.com/CustomHaven/user-story#webpack--Babel)
 - [Status](https://github.com/CustomHaven/user-story#Status)
 - [Contact Me](https://github.com/CustomHaven/user-story#Contact-me)
 
