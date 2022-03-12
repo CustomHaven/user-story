@@ -208,7 +208,7 @@
     </main>
     <script>
         const tbody = document.querySelector('tbody');
-        const fetchedItems = fetch('http://localhost:5500/preparation/appendixA.json')
+        const fetchedItems = fetch('https://perpation-user-story.surge.sh/appendixA.json')
                                 .then(res => res.json())
                                 .then(result => result.appendix_a)
                                 .catch(e => console.log("error: ", e));

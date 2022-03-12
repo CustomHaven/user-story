@@ -1,2 +1,3 @@
 aback-ship.surge.sh
 surge --domain aback-ship.surge.sh dist
+surge --domain perpation-user-story.surge.sh preparation
